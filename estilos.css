@@ -1,0 +1,156 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ body{
+     background-color: #4A84DA;
+ }
+ .pantalla{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    margin: 0 9px 23px 1px;
+    border-radius: 5px;
+    box-shadow: inset -1px -1px 4px 0 rgba(255, 253, 253, 0.25), inset 1px 1px 4px 0 rgba(255, 255, 255, 0.25);
+    background-color: #696969;
+    margin: 0;
+    grid-column: x0 / x4;
+    grid-row: y0 / y2;
+ }
+ .cac{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    padding: 5px;
+    margin: 0 1px 22px 9px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25), inset -1px -1px 4px 0 rgba(0, 0, 0, 0.25), inset 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #eb617a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin: 0%;
+    grid-column-start: x4;
+ }
+
+ .grid-6x5{
+    display: grid;
+    grid-template-columns: [x0]54px [x1]54px [x2]54px [x3]54px [x4]54px;
+    grid-template-rows: [y0]54px [y1]54px [y2]54px [y3]54px [y4]54px;
+    column-gap: 21px;
+    row-gap: 32px;
+    justify-content: center;
+
+ }
+
+.numeros{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25), inset -1px -1px 4px 0 rgba(0, 0, 0, 0.25), inset 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #c6f6f4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 5px;
+}
+.simbol{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25), inset -1px -1px 4px 0 rgba(0, 0, 0, 0.25), inset 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #82a8f3;
+    padding: 5px;
+}
+
+.plus{
+    width: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25), inset -1px -1px 4px 0 rgba(0, 0, 0, 0.25), inset 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #82a8f3;
+    grid-column: x3 / x4;
+    grid-row: y4 / y6;
+    padding: 5px;
+}
+.equal{
+    width: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25), inset -1px -1px 4px 0 rgba(0, 0, 0, 0.25), inset 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #73d47d;
+    grid-column: x4 / x4;
+    grid-row: y4 / y6;
+    padding: 5px;
+}
+.cambio-tipo{
+    width: 90%;
+    display: grid;
+    grid-template-columns: [x0]150px [x1]150px;
+    grid-template-rows: [y0]65px [y1]54px;
+    column-gap: 21px;
+    justify-content: space-around;
+    margin: auto;
+}
+.normal{
+    width: 150px;
+    height: 54px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25), inset -1px -1px 4px 0 rgba(0, 0, 0, 0.25), inset 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #dcdfe4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    grid-row: y1;
+}
+.científica{
+    width: 150px;
+    height: 54px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.25), inset -1px -1px 4px 0 rgba(0, 0, 0, 0.25), inset 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #0f7cfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    color: #ffff;
+    grid-row: y1;
+}
+.fullcalculator{
+    background-color: #dedede;
+    width: 450px;
+    height: 667px;
+    padding: 76px 15px 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 40px;
+    gap: 60px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.25), inset -1px -1px 4px 0 rgba(0, 0, 0, 0.25), inset 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
